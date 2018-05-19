@@ -24,11 +24,10 @@ if (!fs.existsSync(filename)) {
   const pr = new PoolRequest(config.daemon, config.wallet, config.api);
 
   const runner = new Runner(reader, redis, logger, pr);
-  runner.spawn();
-
   if (cluster.isWorker) {
     if (process.env) {
       const { workerType } = process.env;
+      console.log("inside starting %s", workerType);
       if (workerType) {
         process.nextTick(async () => {
           runner.except(workerType)
