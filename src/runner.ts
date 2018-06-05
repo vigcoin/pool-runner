@@ -26,11 +26,11 @@ export class Runner {
   redis: RedisClient;
   logger: Logger;
   poolRequest: PoolRequest;
-  miningServer: MiningServer;
-  blockUnlocker: BlockUnlocker;
-  payments: Payments;
-  apiServer: APIServer;
-  charts: Charts;
+  miningServer?: MiningServer;
+  blockUnlocker?: BlockUnlocker;
+  payments?: Payments;
+  apiServer?: APIServer;
+  charts?: Charts;
   moduleName: string;
 
   poolWorkers: any = {};
