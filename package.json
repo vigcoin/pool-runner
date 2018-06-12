@@ -35,7 +35,7 @@
     "@vigcoin/conf-reader": "^1.1.0",
     "@vigcoin/cryptonote-util": "^0.2.0",
     "@vigcoin/logger": "^0.2.3",
-    "@vigcoin/pool-api": "^0.1.1",
+    "@vigcoin/pool-api": "^0.1.2",
     "@vigcoin/pool-block-unlocker": "^0.1.0",
     "@vigcoin/pool-mining-server": "^0.1.8",
     "@vigcoin/pool-payments": "^0.1.0",
