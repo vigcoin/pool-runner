@@ -3,7 +3,9 @@
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
 
-# Typescript version for https://github.com/zone117x/node-cryptonote-pool
+# Cryptonote pool written in typescript
+
+migrated for https://github.com/zone117x/node-cryptonote-pool
 
 # Usage
 
