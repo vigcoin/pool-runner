@@ -10,8 +10,9 @@ cd pool-runner
 npm install -g ts-node
 
 # place a config.json file here
+npm install
 
-ts-node src/index
+ts-node src/index.ts
 ```
 
 # confgi.json
